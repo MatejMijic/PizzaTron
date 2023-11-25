@@ -7,7 +7,6 @@ import { COLORS } from '~/modules/ui/colors';
 import { SplashScreenLayout } from '../../ScreenLayout';
 
 export function SplashScreen(): JSX.Element {
-  console.log('SplashScreen');
   return (
     <SplashScreenLayout>
       <Block alignSelf="center" justify="center" align="center" flex={1}>
@@ -20,7 +19,7 @@ export function SplashScreen(): JSX.Element {
           margins={{
             marginTop: 20,
           }}
-          font="AvenirLTStd-HeavyOblique"
+          font="AvenirLTStd-BlackOblique"
           size={30}
           color={COLORS.text[5]}>
           Pizz-á-tron
