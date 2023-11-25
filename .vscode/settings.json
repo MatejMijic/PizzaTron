@@ -1,0 +1,22 @@
+{
+  "github-actions.workflows.pinned.workflows": [".github/workflows/*.yml"],
+  "java.compile.nullAnalysis.mode": "automatic",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "[ignore]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "i18n-ally.localesPaths": ["app/assets/i18n"],
+  "i18n-ally.pathMatcher": "{locale}.json",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.regex.usageMatchAppend": [
+    "<PlaceholderFormattedMessage\\s+id=['\"]([^'\"]+)['\"]"
+  ],
+  "[dotenv]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  }
+}
